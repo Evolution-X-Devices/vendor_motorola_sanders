@@ -1340,6 +1340,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/lib/libdtvhal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdtvhal.so \
     vendor/motorola/sanders/proprietary/lib/libdtvtuner.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdtvtuner.so \
     vendor/motorola/sanders/proprietary/lib64/libdtvtuner.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdtvtuner.so \
+    vendor/motorola/sanders/proprietary/lib/modules/isdbt.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/isdbt.ko \
     vendor/motorola/sanders/proprietary/lib64/libdtvhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdtvhal.so 
     
 # WFD
