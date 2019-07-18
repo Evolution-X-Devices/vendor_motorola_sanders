@@ -1346,6 +1346,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/lib/libdtvtuner.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdtvtuner.so \
     vendor/motorola/sanders/proprietary/lib64/libdtvtuner.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdtvtuner.so \
     vendor/motorola/sanders/proprietary/lib64/libdtvhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdtvhal.so \
+    vendor/motorola/sanders/proprietary/lib/modules/isdbt.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/isdbt.ko \
     vendor/motorola/sanders/proprietary/vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so \
     vendor/motorola/sanders/proprietary/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar:system/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar \
