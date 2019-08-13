@@ -1332,6 +1332,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/lib/modules/isdbt.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/isdbt.ko \
     vendor/motorola/sanders/proprietary/lib64/libdtvhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdtvhal.so 
 
+# Qti Blobs
+PRODUCT_COPY_FILES += \
+     vendor/motorola/sanders/proprietary/vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so \
+     vendor/motorola/sanders/proprietary/vendor/lib64/vendor.qti.hardware.wifi.supplicant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifi.supplicant@1.0.so \
+     vendor/motorola/sanders/proprietary/vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so \
+     vendor/motorola/sanders/proprietary/vendor/lib64/vendor.qti.hardware.soter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.soter@1.0.so \
+     vendor/motorola/sanders/proprietary/vendor/bin/hw/vendor.qti.hardware.soter@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.soter@1.0-service \
+     vendor/motorola/sanders/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc
+
 # WFD
 PRODUCT_COPY_FILES += \
      vendor/motorola/sanders/proprietary/bin/wfdservice:system/bin/wfdservice \
