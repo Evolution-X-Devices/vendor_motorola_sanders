@@ -1361,6 +1361,7 @@ PRODUCT_COPY_FILES += \
      vendor/motorola/sanders/proprietary/lib/libwfdrtsp.so:system/lib/libwfdrtsp.so \
      vendor/motorola/sanders/proprietary/lib/libwfdservice.so:system/lib/libwfdservice.so \
      vendor/motorola/sanders/proprietary/lib/libwfdsm.so:system/lib/libwfdsm.so \
+     vendor/motorola/sanders/proprietary/lib/libwfdtalsa.so:system/lib/libwfdtalsa.so \
      vendor/motorola/sanders/proprietary/lib/libwfduibcinterface.so:system/lib/libwfduibcinterface.so \
      vendor/motorola/sanders/proprietary/lib/libwfduibcsink.so:system/lib/libwfduibcsink.so \
      vendor/motorola/sanders/proprietary/lib/libwfduibcsinkinterface.so:system/lib/libwfduibcsinkinterface.so \
