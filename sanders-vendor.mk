@@ -464,7 +464,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/motorola/sanders/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor1.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorcal.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_reg.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsettings.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmemlog.so \
