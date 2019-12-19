@@ -1343,6 +1343,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/firmware/focaltech-biel-ft5436-06-0001-sanders.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-biel-ft5436-06-0001-sanders.bin \
     vendor/motorola/sanders/proprietary/vendor/firmware/focaltech-djn-ft5436-02-0001-sanders.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-djn-ft5436-02-0001-sanders.bin \
     vendor/motorola/sanders/proprietary/vendor/firmware/focaltech-toptouch-ft5436-0a-0001-sanders.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-toptouch-ft5436-0a-0001-sanders.bin \
+    vendor/motorola/sanders/proprietary/vendor/firmware/emmc_ffu_15_FE12MB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_FE12MB.fw \
+    vendor/motorola/sanders/proprietary/vendor/firmware/emmc_ffu_15_QE13MB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_QE13MB.fw \
+    vendor/motorola/sanders/proprietary/vendor/firmware/emmc_ffu_15_RC14MB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_RC14MB.fw \
+    vendor/motorola/sanders/proprietary/vendor/firmware/emmc_ffu_15_RC1BMB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_RC1BMB.fw \
+    vendor/motorola/sanders/proprietary/vendor/firmware/emmc_ffu_15_RE1BMB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_RE1BMB.fw \
+    vendor/motorola/sanders/proprietary/vendor/firmware/emmc_ffu_15_RX14MB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_RX14MB.fw \
+    vendor/motorola/sanders/proprietary/vendor/firmware/emmc_ffu_15_RX1BMB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_RX1BMB.fw \
     vendor/motorola/sanders/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/motorola/sanders/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor/motorola/sanders/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
