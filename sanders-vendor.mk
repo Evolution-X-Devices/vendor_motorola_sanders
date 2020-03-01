@@ -156,9 +156,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/lib_motsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_motsensorlistener.so \
     vendor/motorola/sanders/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/sanders/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_api_v02.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libloc_ds_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_ds_api.so \
-    vendor/motorola/sanders/proprietary/vendor/lib64/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_api_v02.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libloc_ds_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_ds_api.so \
     vendor/motorola/sanders/proprietary/lib/libmbs.so:system/lib/libmbs.so \
     vendor/motorola/sanders/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
@@ -1184,7 +1182,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib64/liblocationservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libloc_externalDr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_externalDr.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libloc_ds_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_ds_api.so \
-    vendor/motorola/sanders/proprietary/vendor/lib64/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_api_v02.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/lib_drplugin_server.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_drplugin_server.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdataitems.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libDRPlugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDRPlugin.so \
@@ -1482,6 +1479,7 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     libbtnv \
+    libloc_api_v02 \
     vendor.qti.hardware.fm@1.0 \
     qcrilmsgtunnel \
     izat.xt.srv \
